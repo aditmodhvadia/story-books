@@ -20,3 +20,9 @@ p {
 .img-small {
   width: 180px;
 }
+
+footer {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+}
