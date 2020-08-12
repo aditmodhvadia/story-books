@@ -21,8 +21,11 @@ p {
   width: 180px;
 }
 
+.main-content {
+  min-height: 100vh;
+  padding-bottom: 70px;
+}
+
 footer {
-  position: relative;
-  bottom: 0px;
-  width: 100%;
+  margin-top: -70px;
 }
