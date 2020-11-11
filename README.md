@@ -31,9 +31,14 @@ git clone https://github.com/aditmodhvadia/story-books.git
 
 - All commits on the master branch will be deployed to the live URL via Heroku
 - If you want to deploy your version then keep these steps in your mind:
+
   - DO NOT make your config.env file public. Add it to .gitignore
   - I used [Heroku](https://heroku.com) to deploy the Node.js app
   - Most hosting services will allow you to set environment variables from the dashboard, so use that to keep the keys secret.
+
+  ## Docker setup commands
+
+  - docker run -p 27017:27017 -d mongo:3.6-xenial
 
 ## Built With
 

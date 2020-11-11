@@ -1,0 +1,10 @@
+PROJECT_ID=storybooks-project
+
+run-local:
+	docker-compose up
+
+stop-local:
+	docker-compose down
+
+create-tf-backend-bucket:
+	gsutil mb -p $(PROJECT_ID) gs://$(PROJECT_ID)-terraform
